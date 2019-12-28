@@ -1,8 +1,15 @@
 # Site Settings
 # variables accessed via {{ site.myvariable }}
-name: Michael Taleff
+title: Michael Taleff
+author: Michael Taleff
+email: mtaleff@utexas.edu
 description: Personal site for Michael Taleff
 url: "https://taleff.github.io/"
+
+#generate social links in footer
+social links:
+  github: taleff
+  linkedin: michael-taleff
 
 # Build Settings
 markdown: kramdown
