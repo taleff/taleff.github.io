@@ -7,3 +7,4 @@ url: "https://taleff.github.io/"
 # Build Settings
 markdown: kramdown
 highlighter: rouge
+theme: minima
