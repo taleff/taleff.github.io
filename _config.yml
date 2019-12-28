@@ -1,2 +1,9 @@
+# Site Settings
+# variables accessed via {{ site.myvariable }}
 name: Michael Taleff
+description: Personal site for Michael Taleff
+url: "https://taleff.github.io/"
+
+# Build Settings
 markdown: kramdown
+highlighter: rouge
