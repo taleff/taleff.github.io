@@ -1,14 +1,21 @@
 
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Michael Taleff</title>
-        <!-- Link to the CSS style sheet -->
-        <link rel="stylesheet" type="text/css" href="/css/main.css">
-    </head>
-    <body>
-        <div class="page-wrap">
-	          {{content}}
-	      </div>
-    </body>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
 </html>
