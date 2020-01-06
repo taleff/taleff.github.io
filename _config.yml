@@ -6,6 +6,11 @@ email: mtaleff@utexas.edu
 description: Personal site for Michael Taleff
 url: "https://taleff.github.io/"
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
 #generate social links in footer
 social links:
   github: taleff
