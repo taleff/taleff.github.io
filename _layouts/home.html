@@ -15,12 +15,14 @@ layout: default
     <ul class="project-list">
         {%- for project in site.data.projects -%}
             <li class="project-item">
-                <img src="{{ project.image | relative_url }}">
+                <img src="{{ project.image | relative_url | default: "/assets/placeholder.png" }}">
                 <h2 class="project-title"> 
-                    <a href="{{ project.url }}"> {{ project.title }} </a>
+                    <a href="{{ project.url | default: "https://taleff.github.io" }}"> 
+                        {{ project.title | default: Project }} 
+                    </a>
                 </h2>
                 <p class="project-description">
-                    {{ project.description }}
+                    {{ project.description | default: None }}
                 </p>
             </li>
         {%- endfor -%}
