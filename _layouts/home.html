@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="home">
-    {% if page.title %}
+    {%- if page.title -%}
         <h1 class="page-heading">{{ page.title }}</h1>
-    {% endif %}
+    {%- endif -%}
     
     {{ content }}
     
@@ -15,7 +15,7 @@ layout: default
     </div>
     
     <ul class="project-list">
-        {% for project in site.data.projects %}
+        {%- for project in site.data.projects -%}
             <li class="project-item">
                 <img src="{{ project.image | relative_url }}">
                 <h2 class="project-title"> 
@@ -25,6 +25,6 @@ layout: default
                     {{ project.description }}
                 </p>
             </li>
-        {% endfor %}
+        {%- endfor -%}
     </ul>
 </div>
