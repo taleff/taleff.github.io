@@ -18,11 +18,11 @@ layout: default
                 <img src="{{ project.image | relative_url | default: "/assets/placeholder.png" }}">
                 <h2 class="project-title"> 
                     <a href="{{ project.url | default: "https://taleff.github.io" }}"> 
-                        {{ project.title | default: Project }} 
+                        {{ project.title | default: "Project" }} 
                     </a>
                 </h2>
                 <p class="project-description">
-                    {{ project.description | default: None }}
+                    {{ project.description | default: "None" }}
                 </p>
             </li>
         {%- endfor -%}
