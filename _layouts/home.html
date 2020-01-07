@@ -8,12 +8,12 @@ layout: default
     
     <div class="profile-section">
         <img src="{{ "/assets/placeholder.png" | relative_url }}" class="profile-picture">
-        <h1 class="profile-name> Michael Taleff </h1>
+        <h1 class="profile-name"> Michael Taleff </h1>
         <p class="biography"> Biography </p>
     </div>
     
     <ul class="project-list">
-        {% for project in site.data.projects %}
+        {%- for project in site.data.projects -%}
             <li class="project-item">
                 <img src="{{ project.image | relative_url }}">
                 <h2 class="project-title"> 
@@ -23,6 +23,6 @@ layout: default
                     {{ project.description }}
                 </p>
             </li>
-        {% endfor %}
+        {%- endfor -%}
     </ul>
 </div>
