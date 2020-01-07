@@ -1,5 +1,5 @@
 example:
-    title: example
-    description: test
-    image: /assets/placeholder.png
-    url: https://taleff.github.io
+    title: "example"
+    description: "test"
+    image: "/assets/placeholder.png"
+    url: "https://taleff.github.io"
