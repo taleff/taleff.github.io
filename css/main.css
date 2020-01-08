@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 .home {
     background-color: white;
     height: 80vh;
@@ -14,6 +16,10 @@
     align-items: flex-end;
     flex-direction: column;
 }
+
+.profile-name {
+    font-size: 32px;
+    font-family: "Roboto";
 
 .personal-links {
     display: flex;
@@ -70,9 +76,10 @@ ul {
 }
 
 .project-title {
-    font-size: 18px
+    font-size: 18px;
+    font-family: "Roboto";
 }
 
 .project-description {
-    font-size: 14px
+    font-size: 14px;
 }
