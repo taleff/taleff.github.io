@@ -69,6 +69,8 @@ li {
 
 .project-information {
     width: 400px;
+    height: 130px;
+    padding-top: 10px;
 }
 
 .project-title {
