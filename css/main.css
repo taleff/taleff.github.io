@@ -10,7 +10,7 @@
 }
 
 .profile-section {
-    width: 550px;
+    width: 350px;
     padding: 50px;
     display: flex;
     align-items: flex-end;
@@ -20,12 +20,14 @@
 .profile-name {
     font-size: 32px;
     font-family: 'Roboto', sans-serif;
+    height: 1em;
 }
 
 .personal-links {
     display: flex;
     justify-content: flex-end;
     font-family: 'Open Sans', sans-serif;
+    height: 1em;
 }
 
 .biography {
