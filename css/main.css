@@ -15,6 +15,15 @@
     flex-direction: column;
 }
 
+.profile-name {
+    width: 300px;
+    text-align: center;
+}
+
+.biography {
+    text-align: right;
+}
+
 .project-list {
     width: 550px;
     padding: 50px;
