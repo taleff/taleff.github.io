@@ -16,3 +16,7 @@
     width: 550px;
     padding: 15px;
 }
+
+img {
+    border-radius: 50%;
+}
