@@ -41,7 +41,7 @@ ul {
 }
 
 li {
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .profile-picture {
@@ -63,4 +63,8 @@ li {
 .project-item {
     display: flex;
     justify-content: flex-start;
+}
+
+.project-information {
+    width: 400px;
 }
