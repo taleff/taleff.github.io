@@ -2,28 +2,32 @@
 layout: default
 ---
 
-<div class="home">   
-    <div class="profile-section">
-        <img src="{{ "/assets/placeholder.png" | relative_url }}" class="profile-picture">
-        <h1 class="profile-name"> Michael Taleff </h1>
-        {%- include biography.html -%}
-    </div>
+<div class="full-home">
+    <div class="home">   
+        <div class="profile-section">
+            <img src="{{ "/assets/placeholder.png" | relative_url }}" class="profile-picture">
+            <h1 class="profile-name"> Michael Taleff </h1>
+            {%- include biography.html -%}
+        </div>
     
-    <ul class="project-list">
-        {%- for project in site.data.projects -%}
-            <li class="project-item">
-                <img src="{{ project.image | relative_url | default: "/assets/placeholder.png" }}">
-                <h2 class="project-title"> 
-                    <a href="{{ project.url | default: "https://taleff.github.io" }}"> 
-                        {{ project.title | default: "Project" }} 
-                    </a>
-                </h2>
-                <p class="project-description">
-                    {{ project.description | default: "None" }}
-                </p>
-            </li>
-        {%- endfor -%}
-    </ul>
-</div>
+        <ul class="project-list">
+            {%- for project in site.data.projects -%}
+                <li class="project-item">
+                    <img src="{{ project.image | relative_url | default: "/assets/placeholder.png" }}">
+                    <div class="project-information">
+                        <h2 class="project-title"> 
+                            <a href="{{ project.url | default: "https://taleff.github.io" }}"> 
+                                {{ project.title | default: "Project" }} 
+                            </a>
+                        </h2>
+                        <p class="project-description">
+                            {{ project.description | default: "None" }}
+                        </p>
+                    </div>
+                </li>
+            {%- endfor -%}
+        </ul>
+    </div>
 
-{{ content }}
+    {{ content }}
+</div>
