@@ -13,7 +13,7 @@ layout: default
         <ul class="project-list">
             {%- for project in site.data.projects -%}
                 <li class="project-item">
-                    <img src="{{ project.image | relative_url | default: "/assets/placeholder.png" }}">
+                    <img src="{{ project.image | relative_url | default: "/assets/placeholder.png" }}" class="project-picture">
                     <div class="project-information">
                         <h2 class="project-title"> 
                             <a href="{{ project.url | default: "https://taleff.github.io" }}"> 
