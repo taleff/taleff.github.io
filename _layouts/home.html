@@ -6,15 +6,17 @@ layout: default
     <div class="home">   
         <div class="profile-section">
             <img src="{{ "/assets/placeholder.png" | relative_url }}" class="profile-picture">
-            <h1 class="profile-name"> Michael Taleff </h1>
-            <ul class="personal-links">
-                <li class="resume-link link"><a href="{{ /assets/resume.pdf | relative_url }}">Resume</a></li>
-                <li class="link-spacer">/</li>
-                <li class="github-link link"><a href="{{ site.github }}">Github</a></li>
-                <li class="link-spacer">/</li>
-                <li class="linkedin-link link"><a href="{{ site.linkedin }}">LinkedIn</a></li>
-            </ul>
-            {%- include biography.html -%}
+            <div class="profile-section-info">
+                <h1 class="profile-name"> Michael Taleff </h1>
+                <ul class="personal-links">
+                    <li class="resume-link link"><a href="{{ /assets/resume.pdf | relative_url }}">Resume</a></li>
+                    <li class="link-spacer">/</li>
+                    <li class="github-link link"><a href="{{ site.github }}">Github</a></li>
+                    <li class="link-spacer">/</li>
+                    <li class="linkedin-link link"><a href="{{ site.linkedin }}">LinkedIn</a></li>
+                </ul>
+                {%- include biography.html -%}
+            </div>
         </div>
     
         <ul class="project-list">
