@@ -1,7 +1,7 @@
 .home {
     background-color: white;
     height: 80vh;
-    width: 80vw;
+    width: 95vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -67,4 +67,12 @@ li {
 
 .project-information {
     width: 400px;
+}
+
+.project-title {
+    font-size: 20px
+}
+
+.project-description {
+    font-size: 10px
 }
