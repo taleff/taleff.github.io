@@ -9,7 +9,7 @@
 
 .profile-section {
     width: 550px;
-    padding: 15px;
+    padding: 50px;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
@@ -17,7 +17,7 @@
 
 .project-list {
     width: 550px;
-    padding: 15px;
+    padding: 50px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
