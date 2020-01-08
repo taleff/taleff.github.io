@@ -1,4 +1,19 @@
-- title: "example"
-  description: "test"
-  image: "/assets/placeholder.png"
-  url: "https://taleff.github.io"
+- title: Python Problem Solutions
+  description: Personal solutions to most of the problems in the book Learning Scientific Programming with Python by Christian Hill
+  image:
+  url: "https://github.com/taleff/scipython-solution"
+  
+- title: Heat Equation Temperature Evolution
+  description: A comparison of the theoretical temperature evolution of an insulated rod with actual data
+  image:
+  url:
+
+- title: Personal Backup Server
+  description: A Raspberry Pi Zero based sftp backup server that works with deja dup
+  image:
+  url: "https://github.com/taleff/pi_backup_server"
+  
+- title: Luminators Lab Files
+  description: Programs written for data analysis for a number of projects in the Luminators Freshman Research Initiative course
+  image:
+  url: "https://github.com/taleff/pi_backup_server"
