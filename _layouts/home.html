@@ -2,10 +2,7 @@
 layout: default
 ---
 
-<div class="home">
-    
-    {{ content }}
-    
+<div class="home">   
     <div class="profile-section">
         <img src="{{ "/assets/placeholder.png" | relative_url }}" class="profile-picture">
         <h1 class="profile-name"> Michael Taleff </h1>
@@ -28,3 +25,5 @@ layout: default
         {%- endfor -%}
     </ul>
 </div>
+
+{{ content }}
