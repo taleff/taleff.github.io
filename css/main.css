@@ -54,6 +54,8 @@ li {
     display: block;
     width: 100px;
     height: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .project-spacer {
