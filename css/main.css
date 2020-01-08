@@ -6,3 +6,13 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.profile-section {
+    width: 550px;
+    padding: 15px;
+}
+
+.project-list {
+    width: 550px;
+    padding: 15px;
+}
