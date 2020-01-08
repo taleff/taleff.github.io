@@ -52,6 +52,10 @@ ul {
     height: 100px;
 }
 
+.project-spacer {
+    width: 30px;
+}
+
 .project-item {
     display: flex;
     justify-content: flex-start;
