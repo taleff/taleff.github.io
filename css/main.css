@@ -15,9 +15,9 @@
     flex-direction: column;
 }
 
-.profile-name {
-    width: 300px;
-    text-align: center;
+.personal-links {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .biography {
