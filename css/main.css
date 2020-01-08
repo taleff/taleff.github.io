@@ -10,7 +10,7 @@
 }
 
 .profile-section {
-    width: 350px;
+    width: 300px;
     padding: 50px;
     display: flex;
     align-items: flex-end;
@@ -18,7 +18,7 @@
 }
 
 .profile-section-info {
-    margin-right: 50px;
+    margin-right: 25px;
 }
 
 .profile-name {
