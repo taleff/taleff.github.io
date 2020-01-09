@@ -1,6 +1,6 @@
 - title: Python Problem Solutions
   description: Personal solutions to most of the problems in the book Learning Scientific Programming with Python by Christian Hill
-  image:
+  image: "/assets/juliaset.png"
   url: "https://github.com/taleff/scipython-solution"
   
 - title: Heat Equation Temperature Evolution
@@ -15,5 +15,5 @@
   
 - title: Luminators Lab Files
   description: Programs written for data analysis for a number of projects in the Luminators Freshman Research Initiative course
-  image:
-  url: "https://github.com/taleff/pi_backup_server"
+  image: "/assets/luminatorsfigure.png"
+  url: "https://github.com/taleff/luminators"
