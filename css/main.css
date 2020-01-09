@@ -67,8 +67,8 @@ ul {
     display: block;
     width: 100px;
     height: 100px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border: solid;
     border-width: 1px;
     border-color: black;
