@@ -5,8 +5,8 @@
   
 - title: Heat Equation Temperature Evolution
   description: A comparison of the theoretical temperature evolution of an insulated rod with actual data
-  image:
-  url:
+  image: "assets/reportimage.png"
+  url: "https://taleff.github.io/assets/Report.pdf"
 
 - title: Personal Backup Server
   description: A Raspberry Pi Zero based sftp backup server that works with deja dup
