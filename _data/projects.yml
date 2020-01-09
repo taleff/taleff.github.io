@@ -1,6 +1,6 @@
 - title: Python Problem Solutions
   description: Personal solutions to most of the problems in the book Learning Scientific Programming with Python by Christian Hill
-  image: "/assets/juliaset.png"
+  image: "/assets/pythonjuliaset.png"
   url: "https://github.com/taleff/scipython-solution"
   
 - title: Heat Equation Temperature Evolution
