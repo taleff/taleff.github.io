@@ -5,7 +5,7 @@
   
 - title: Heat Equation Temperature Evolution
   description: A comparison of the theoretical temperature evolution of an insulated rod with actual data
-  image: "assets/reportimage.png"
+  image: "/assets/reportimage.png"
   url: "https://taleff.github.io/assets/Report.pdf"
 
 - title: Personal Backup Server
