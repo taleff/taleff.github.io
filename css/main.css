@@ -50,10 +50,7 @@
 }
 
 img {
-    border: solid;
-    border-width: 3px;
     border-radius: 50%;
-    border-color: black;
 }
 
 ul {
@@ -72,6 +69,9 @@ ul {
     height: 100px;
     padding-top: 15px;
     padding-bottom: 15px;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
 }
 
 .project-spacer {
