@@ -50,7 +50,10 @@
 }
 
 img {
+    border: solid;
+    border-width: 3px;
     border-radius: 50%;
+    border-color: black;
 }
 
 ul {
