@@ -109,9 +109,3 @@ a:visited {
     color: #892cf4;
     text-decoration: none;
 }
-
-a:hover, a:active {
-    color: white;
-    background-color: blue;
-    text-decoration: none;
-}
