@@ -44,7 +44,7 @@
 }
 
 .project-list {
-    width: 550px;
+    width: 33vw;
     padding: 50px;
     display: flex;
     align-items: flex-start;
@@ -86,7 +86,7 @@ ul {
 }
 
 .project-information {
-    width: 400px;
+    width: 24vw;
     height: 120px;
     padding-top: 10px;
 }
