@@ -15,6 +15,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .profile-section-info {
@@ -39,7 +40,7 @@
 }
 
 .biography {
-    text-align: right;
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -49,6 +50,7 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 img {
@@ -87,7 +89,6 @@ ul {
 
 .project-information {
     width: 24vw;
-    height: 120px;
     padding-top: 10px;
 }
 
