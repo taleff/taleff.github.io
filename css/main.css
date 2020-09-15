@@ -11,7 +11,7 @@
 
 .profile-section {
     width: 300px;
-    padding: 50px;
+    padding: 40px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -46,7 +46,6 @@
 }
 
 .project-list {
-    width: 33vw;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -88,7 +87,7 @@ ul {
 }
 
 .project-information {
-    width: 24vw;
+    
 }
 
 .project-title {
