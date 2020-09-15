@@ -50,6 +50,7 @@
     align-items: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 img {
@@ -58,6 +59,7 @@ img {
 
 ul {
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 .profile-picture {
