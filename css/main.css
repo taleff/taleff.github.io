@@ -66,6 +66,9 @@ ul {
     display: block;
     width: 300px;
     height: 300px;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
 }
 
 .project-picture {
