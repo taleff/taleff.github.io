@@ -8,10 +8,10 @@
   image: "/assets/reportimage.png"
   url: "https://taleff.github.io/assets/Report.pdf"
 
-- title: Personal Backup Server
-  description: A Raspberry Pi Zero based sftp backup server that works with deja dup
+- title: Science Olympiad Work
+  description: All material pertaining to my involvement with ATX Scioly, including past exams and statistics concerning test performance.
   image:
-  url: "https://github.com/taleff/pi_backup_server"
+  url: "https://github.com/taleff/"
   
 - title: Luminators Lab Files
   description: Programs written for data analysis for a number of projects in the Luminators Freshman Research Initiative course
