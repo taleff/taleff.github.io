@@ -51,6 +51,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     padding: 20px;
+    width: 500px;
 }
 
 img {
