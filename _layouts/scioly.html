@@ -8,7 +8,7 @@ layout: default
       <div class="event-spacer"></div>
       <div class="event-information">
         <h2 class="event-title"> 
-          {{ event.title | default: "None" }} ({{ event.tournament | default: "Nowhere" }})
+          {{ event.event | default: "None" }} ({{ event.tournament | default: "Nowhere" }})
         </h2>
         <ul style="list-style-type:disc;">
           <li><a href="{{ event.exam-url | default: "https://taleff.github.io" }}">Exam</a></li>
