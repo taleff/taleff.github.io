@@ -2,3 +2,20 @@
 layout: default
 ---
 
+<ul class="proctor-list">
+  {%- for project in site.data.scioly -%}
+    <li class="proctor-item">
+      <div class="project-spacer"></div>
+      <div class="proctor-information">
+        <h2 class="proctor-title"> 
+          <a href="{{ proctor.url | default: "https://taleff.github.io" }}"> 
+            {{ proctor.title | default: "Project" }}
+          </a>
+        </h2>
+        <p class="proctor-description">
+          {{ proctor.description | default: "None" }}
+        </p>
+      </div>
+  </li>
+  {%- endfor -%}
+</ul>
