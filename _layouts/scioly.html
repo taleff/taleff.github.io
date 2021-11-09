@@ -2,20 +2,18 @@
 layout: default
 ---
 
-<ul class="proctor-list">
-  {%- for project in site.data.scioly -%}
-    <li class="proctor-item">
-      <div class="project-spacer"></div>
-      <div class="proctor-information">
-        <h2 class="proctor-title"> 
-          <a href="{{ proctor.url | default: "https://taleff.github.io" }}"> 
-            {{ proctor.title | default: "Project" }}
-          </a>
+<ul class="scioly-list">
+  {%- for event in site.data.scioly -%}
+    <li class="event-item">
+      <div class="event-spacer"></div>
+      <div class="event-information">
+        <h2 class="event-title"> 
+          {{ event.title | default: "None" }}
         </h2>
-        <p class="proctor-description">
-          {{ proctor.description | default: "None" }}
+        <p class="event-description">
+          {{ event.description | default: "None" }}
         </p>
       </div>
-  </li>
+    </li>
   {%- endfor -%}
 </ul>
