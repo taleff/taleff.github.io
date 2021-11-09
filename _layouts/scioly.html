@@ -8,11 +8,14 @@ layout: default
       <div class="event-spacer"></div>
       <div class="event-information">
         <h2 class="event-title"> 
-          {{ event.title | default: "None" }}
+          {{ event.title | default: "None" }} ({{ event.tournament | default: "Nowhere" }})
         </h2>
-        <p class="event-description">
-          {{ event.description | default: "None" }}
-        </p>
+        <ul style="list-style-type:disc;">
+          <li><a href="{{ event.exam-url | default: "https://taleff.github.io" }}">Exam</a></li>
+          <li><a href="{{ event.answer-sheet-url | default: "https://taleff.github.io" }}">Answer Sheet</a></li>
+          <li><a href="{{ event.key-url | default: "https://taleff.github.io" }}">Key</a></li>
+          <li><a href="{{ event.results-url | default: "https://taleff.github.io" }}">Results</a></li>
+        </ul> 
       </div>
     </li>
   {%- endfor -%}
