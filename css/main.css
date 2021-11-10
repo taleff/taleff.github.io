@@ -118,10 +118,10 @@ a:visited {
 
 .scioly-list {
     background-color: white;
-    height: 80vh;
     width: 95vw;
     display: flex;
     justify-content: center;
+    align-self: center;
     flex-direction: column;
 }
 
