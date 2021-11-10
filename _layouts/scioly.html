@@ -5,7 +5,6 @@ layout: default
 <ul class="scioly-list">
   {%- for event in site.data.scioly -%}
     <li class="event-item">
-      <div class="event-spacer"></div>
       <div class="event-information">
         <h2 class="event-title"> 
           {{ event.event | default: "None" }} ({{ event.tournament | default: "Nowhere" }})
