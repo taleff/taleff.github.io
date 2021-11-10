@@ -90,6 +90,7 @@ ul {
 .project-item {
     display: flex;
     justify-content: flex-start;
+    flex-direction: row;
 }
 
 .project-information {
