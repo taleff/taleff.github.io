@@ -68,7 +68,7 @@ ul {
     width: 300px;
     height: 300px;
     border: solid;
-    border-width: 3px;
+    border-width: 1px;
     border-color: black;
 }
 
@@ -90,10 +90,12 @@ ul {
 .project-item {
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
 }
 
 .project-information {
-    
+    display: flex;
+    justify-content: flex-start;
 }
 
 .project-title {
