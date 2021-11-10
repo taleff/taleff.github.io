@@ -52,6 +52,7 @@
     flex-wrap: wrap;
     padding: 20px;
     width: 500px;
+    gap: 10px;
 }
 
 img {
@@ -92,7 +93,7 @@ ul {
 
 .project-information {
     display: flex;
-    justify-content: flex-start;
+    align-content: flex-start;
     flex-direction: column;
 }
 
