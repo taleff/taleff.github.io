@@ -115,3 +115,21 @@ a:visited {
     color: #892cf4;
     text-decoration: none;
 }
+
+.scioly-list {
+    background-color: white;
+    height: 80vh;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.event-item {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.event-spacer {
+    width: 35px;
+}
