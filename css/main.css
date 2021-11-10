@@ -78,13 +78,10 @@ ul {
     height: 100px;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-right: 35px;
     border: solid;
     border-width: 1px;
     border-color: black;
-}
-
-.project-spacer {
-    width: 35px;
 }
 
 .project-item {
@@ -130,8 +127,4 @@ a:visited {
 .event-item {
     display: flex;
     justify-content: flex-start;
-}
-
-.event-spacer {
-    width: 35px;
 }
