@@ -90,12 +90,12 @@ ul {
 .project-item {
     display: flex;
     justify-content: flex-start;
-    flex-direction: column;
 }
 
 .project-information {
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
 }
 
 .project-title {
