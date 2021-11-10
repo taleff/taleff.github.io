@@ -122,7 +122,6 @@ a:visited {
     width: 95vw;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 
