@@ -132,3 +132,12 @@ a:visited {
     justify-content: flex-start;
     width: 1000px;
 }
+
+.event-title {
+    margin: 0px;
+}
+
+.event-tournament {
+    margin: 0px;
+    margin-bottom: 15px;
+}
