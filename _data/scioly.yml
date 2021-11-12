@@ -1,8 +1,8 @@
 - event: WiFi Lab
   tournament: UT Invitational 2021
-  exam-url:
-  answer-sheet-url:
-  key-url:
+  exam-url: "/assets/scioly/ut_fall_2021/WiFiLabC_Exam.pdf"
+  answer-sheet-url: "/assets/scioly/ut_fall_2021/WiFiLabC_AnswerSheet.pdf"
+  key-url: "/assets/scioly/ut_fall_2021/WiFiLabC_Key.pdf"
   results-url:
   graphic: 
   
@@ -32,16 +32,16 @@
 
 - event: WiFi Lab
   tournament: UT Regional 2019
-  exam-url:
-  answer-sheet-url:
-  key-url:
+  exam-url: "/assets/scioly/ut_spring_2019/WiFiLabC_Exam.pdf"
+  answer-sheet-url: "/assets/scioly/ut_spring_2019/WiFiLabC_AnswerSheet.pdf"
+  key-url: "/assets/scioly/ut_spring_2019/WiFiLabC_Key.pdf"
   results-url:
   graphic: 
   
 - event: WiFi Lab
   tournament: UT Invitational 2018
-  exam-url:
+  exam-url: "/assets/scioly/ut_fall_2018/WiFiLabC_Exam.pdf"
   answer-sheet-url:
-  key-url:
+  key-url: "/assets/scioly/ut_fall_2018/WiFiLabC_Key.pdf"
   results-url:
   graphic: 
