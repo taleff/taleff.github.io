@@ -153,3 +153,7 @@ a:visited {
     border-width: 1px;
     border-color: black;
 }
+
+.event-link-list {
+    margin-bottom: 15px;
+}
