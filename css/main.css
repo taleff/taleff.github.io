@@ -123,11 +123,12 @@ a:visited {
     background-color: white;
     display: flex;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     flex-direction: column;
 }
 
 .event-item {
     display: flex;
     justify-content: flex-start;
+    width: 1000px;
 }
