@@ -148,4 +148,7 @@ a:visited {
 .event-results-box {
     height: 150px;
     margin: 0px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
 }
