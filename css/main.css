@@ -128,7 +128,6 @@ a:visited {
 .event-item {
     display: flex;
     justify-content: flex-start;
-    width: 800px;
     margin-bottom: 25px;
     flex-wrap: wrap;
 }
