@@ -141,3 +141,7 @@ a:visited {
     margin: 0px;
     margin-bottom: 15px;
 }
+
+.event-information {
+    width: 300px;
+}
