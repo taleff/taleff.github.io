@@ -25,7 +25,7 @@ layout: default
           <li><a href="{{ event.results-url | default: "https://taleff.github.io" }}">Results</a></li>
         </ul> 
       </div>
-      <img src="{{ event.graphic }}" class="event-results-box">
+      <img src="{{ event.graphic | default: "/assets/scioly/results_default.jpg" }}" class="event-results-box">
     </li>
   {%- endfor -%}
 </ul>
