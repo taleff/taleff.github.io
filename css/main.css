@@ -55,10 +55,6 @@
     gap: 10px;
 }
 
-img {
-    border-radius: 50%;
-}
-
 ul {
     list-style: none;
     padding-inline-start: 0px;
@@ -71,6 +67,7 @@ ul {
     border: solid;
     border-width: 1px;
     border-color: black;
+    border-radius: 50%;
 }
 
 .project-picture {
@@ -83,6 +80,7 @@ ul {
     border: solid;
     border-width: 1px;
     border-color: black;
+    border-radius: 50%;
 }
 
 .project-item {
@@ -145,4 +143,9 @@ a:visited {
 
 .event-information {
     width: 300px;
+}
+
+.event-results-box {
+    height: 150px;
+    margin: 0px;
 }
