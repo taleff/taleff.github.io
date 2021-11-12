@@ -131,6 +131,7 @@ a:visited {
     display: flex;
     justify-content: flex-start;
     width: 1000px;
+    margin-bottom: 25px;
 }
 
 .event-title {
