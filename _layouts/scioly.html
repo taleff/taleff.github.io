@@ -6,9 +6,18 @@ layout: default
   {%- for event in site.data.scioly -%}
     <li class="event-item">
       <div class="event-information">
-        <h2 class="event-title"> 
-          {{ event.event | default: "None" }} ({{ event.tournament | default: "Nowhere" }})
-        </h2>
+        <ul style="list-style-type:none;">
+          <li>
+            <h2 class="event-title"> 
+              {{ event.event | default: "None" }}
+            </h2>
+          </li>
+          <li>
+            <h2 class="event-title"> 
+              {{ event.tournament | default: "Nowhere" }}
+            </h2>
+          </li>
+        </ul> 
         <ul style="list-style-type:none;">
           <li><a href="{{ event.exam-url | default: "https://taleff.github.io" }}">Exam</a></li>
           <li><a href="{{ event.answer-sheet-url | default: "https://taleff.github.io" }}">Answer Sheet</a></li>
