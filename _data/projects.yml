@@ -1,19 +1,9 @@
-- title: Undergraduate Thesis
-  description: As soon as I finish my undergraduate thesis, it'll pop up here!
+- title: Publications
+  description: A list of my publications with brief descriptions included.
   image: 
   url:
 
 - title: Science Olympiad Work
-  description: All material pertaining to my involvement with ATX Scioly, including past exams and statistics concerning test performance.
-  image: "/assets/scioly.jpg"
+  description: All material pertaining to my volunteer work with Science Olympiad, including past exams I have written.
+  image:
   url: "https://taleff.github.io/scioly"
-  
-- title: Luminators Lab Files
-  description: Programs written for data analysis for a number of projects in the Luminators Freshman Research Initiative course.
-  image: "/assets/luminatorsfigure.png"
-  url: "https://github.com/taleff/luminators"
- 
-- title: Python Problem Solutions
-  description: Personal solutions to most of the problems in the book "Learning Scientific Programming with Python" by Christian Hill.
-  image: "/assets/pythonjuliaset.png"
-  url: "https://github.com/taleff/scipython-solution"
