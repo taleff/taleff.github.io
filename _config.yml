@@ -6,4 +6,5 @@ title: Michael Taleff
 author: Michael Taleff
 email: mtaleff@utexas.edu
 description: My personal website
-url: "https://taleff.github.io/"
+baseurl: /
+url: https://taleff.github.io/
