@@ -1,10 +1,2 @@
 # Site Settings
 exclude: [".sass-cache/", ".jekyll-cache/", "README.md", "Gemfile", "Gemfile.lock", "LICENSE"]
-
-# variables accessed via {{ site.myvariable }}
-title: Michael Taleff
-author: Michael Taleff
-email: mtaleff@utexas.edu
-description: My personal website
-baseurl: /
-url: https://taleff.github.io/
