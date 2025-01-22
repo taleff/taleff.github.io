@@ -1,0 +1,28 @@
+---
+layout: default
+title: Michael Taleff
+name: "Publications"
+description: "List of my publications"
+---
+<div class="full-publications-list">
+  {% for pub in site.data.publications reversed %}
+  <div class="publication-item">
+    <div class="toc-image-box">
+      <img src={{ pub.toc | default: "/assets/images/placeholder.png" }} class="toc-image">
+    </div>
+    <div class="publication-info">
+      <div class="publication-title">
+	<p>
+	  <a href={{ pub.url }}>{{ pub.title }}</a>
+	</p>
+      </div>
+      <div class="publication-author">
+	<p>{{ pub.author }}</p>
+      </div>
+      <div class="publication-citation">
+	<p><em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>, <em>{{ pub.volume }}</em>, {{ pub.pages }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

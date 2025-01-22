@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-link {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-link li a {
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+.nav-link li a:link {
+    color: black;
+}
+
+.nav-link li a:visited {
+    color: black;
+}
+
+.nav-link li a:hover {
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #95A7B3;
+}
+
+a:visited {
+    color: #95A7B3;
+}
+
+a:hover {
+    color: grey;
+}
+
+#current-page li a {
+    color: #BB865A !important;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.profile {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.profile-picture {
+    max-width: 300px;
+    border-radius: 50%;
+    align-self: center;
+    margin-bottom: 10px;
+    border: 3px solid #BB865A;
+}
+
+.short-bio p {
+    text-align: center;
+}
+
+.showcase {
+    max-width: 600px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.showcase-section-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.showcase-section-title h2 {
+    margin-right: 10px;
+}
+
+.showcase-section-title p {
+    font-size: 10pt;
+}
+
+.projects-short-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-preview {
+    margin: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-preview-image {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 3px solid #BB865A;
+}
+
+.full-publications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+    max-width: 1000px;
+    margin-top: 40px;
+}
+
+.publication-item {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.toc-image {
+    width: 350px;
+}
+
+.publication-title p{
+    font-size: 15pt;
+}
+
+.scioly-wrapper {
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+}

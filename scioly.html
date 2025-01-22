@@ -1,0 +1,18 @@
+---
+layout: default
+title: Michael Taleff
+name: "Science Olympiad"
+description: "List of tests I've written for Science Olympiad"
+---
+<div class="scioly-wrapper">
+  <div class="scioly-description-box">
+    <p> I previously competed in Science Olympiad for Kealing Middle School and LASA High School. I have written exams for various competitions, but mostly for the invitational and regional tournaments at the University of Texas at Austin. Below are some of the exams I've written out of the 24 I've written or co-written thus far. Thanks to ATX Scioly's generous policy, all the exams I've written for them are available on their <a href="https://www.atxscioly.org/resources">website</a>.</p>
+  </div>
+  <div class="scioly-test-list-box">
+    <ol>
+      {% for exam in site.data.scioly %}
+      <li>{{ exam.year }} {{ exam.tournament }} ({{ exam.event }})</li>
+      {% endfor %}
+    </ol>
+  </div>
+</div>
