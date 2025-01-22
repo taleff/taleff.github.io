@@ -5,5 +5,5 @@ exclude: [".sass-cache/", ".jekyll-cache/", "README.md", "Gemfile", "Gemfile.loc
 title: Michael Taleff
 author: Michael Taleff
 email: mtaleff@utexas.edu
-description:
+description: My personal website
 url: "https://taleff.github.io/"
