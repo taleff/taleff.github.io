@@ -3,9 +3,4 @@ exclude: [".sass-cache/", ".jekyll-cache/", "README.md", "Gemfile", "Gemfile.loc
 
 title: Michael Taleff
 url: "https://taleff.github.io"
-
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
   
