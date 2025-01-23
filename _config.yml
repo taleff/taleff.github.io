@@ -1,2 +1,11 @@
 # Site Settings
 exclude: [".sass-cache/", ".jekyll-cache/", "README.md", "Gemfile", "Gemfile.lock", "LICENSE"]
+
+title: Michael Taleff
+url: "https://taleff.github.io"
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  
