@@ -4,6 +4,7 @@ title: Michael Taleff
 name: "Publications"
 description: "List of my publications"
 ---
+{% assign my_name = "Taleff, Michael T." %}
 <div class="full-publications-list">
   {% for pub in site.data.publications reversed %}
   <div class="publication-item">
@@ -17,7 +18,8 @@ description: "List of my publications"
 	</p>
       </div>
       <div class="publication-author">
-	<p>{{ pub.author }}</p>
+	{% assign: names = pub.author | split: my_name %}
+	<p>{{ names[0] }}<strong>{{ my_name }}</strong>{{ names[-1] }}</p>
       </div>
       <div class="publication-citation">
 	<p><em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>, <em>{{ pub.volume }}</em>, {{ pub.pages }}</p>
