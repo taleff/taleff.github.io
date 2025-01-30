@@ -20,10 +20,7 @@ description: "Home page for my personal website"
   <div class="showcase">
     <div class="publications-preview">
       <div class="showcase-section-title">
-	<h2>Publications /</h2>
-	<p>
-	  <em>(view all)</em>
-	</p>
+	<h2>Publications</h2>
       </div>
       <div class="publications-short-list">
 	{% for publication in site.data.publications reversed limit:3 %}
@@ -32,13 +29,13 @@ description: "Home page for my personal website"
 	</p>
 	{% endfor %}
       </div>
+      <p class="view-all-button">
+	<em><a href="/publications.html">(view all)</a></em>
+      </p>
     </div>
     <div class="projects-preview">
       <div class="showcase-section-title">
-	<h2>Projects /</h2>
-	<p>
-	  <em>(view all)</em>
-	</p>
+	<h2>Projects</h2>
       </div>
       <div class="projects-short-list">
 	{% for project in site.data.projects limit:3 %}
@@ -52,6 +49,9 @@ description: "Home page for my personal website"
 	</div>
 	{% endfor %}
       </div>
+      <p class="view-all-button">
+	<em><a href="/projects.html">(view all)</a></em>
+      </p>
     </div>
   </div>
 </div>
