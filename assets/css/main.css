@@ -60,6 +60,7 @@ a:hover {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .profile {
@@ -87,14 +88,10 @@ a:hover {
     margin: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px
 }
 
 .showcase-section-title {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+    display: inline;
 }
 
 .showcase-section-title h2 {
@@ -103,6 +100,10 @@ a:hover {
 
 .showcase-section-title p {
     font-size: 10pt;
+}
+
+.publications-short-list {
+    padding-left: 30px;
 }
 
 .projects-short-list {
@@ -126,6 +127,7 @@ a:hover {
 
 .view-all-button {
     text-align: center;
+    font-size: 11pt;
 }
 
 .full-publications-list {
