@@ -152,6 +152,34 @@ a:hover {
     font-size: 15pt;
 }
 
+.full-projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+    max-width: 1000px;
+    margin-top: 40px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-image {
+    width: 300px;
+}
+
+.project-title p{
+    font-size: 15pt;
+}
+
 .scioly-wrapper {
     max-width: 650px;
     display: flex;

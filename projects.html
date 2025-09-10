@@ -4,3 +4,23 @@ title: Michael Taleff
 name: "Projects"
 description: "List of projects"
 ---
+{% assign my_name = "Taleff, Michael T." %}
+<div class="full-projects-list">
+  {% for proj in site.data.projects %}
+  <div class="project-item">
+    <div class="project-image-box">
+      <img src={{ proj.image | default: "/assets/images/placeholder.png" }} class="project-image">
+    </div>
+    <div class="project-info">
+      <div class="project-title">
+	<p>
+	  <a href={{ proj.url }}>{{ proj.title }}</a>
+	</p>
+      </div>
+      <div class="project-description">
+	<p>{{ proj.description }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

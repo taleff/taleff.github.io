@@ -1,10 +1,5 @@
-- title: Project 1
-  url:
-  image:
-- title: Project 2
-  url:
-  image:
-- title: Project 3
-  url:
-  image: 
+- title: Secan - SEC Analysis
+  url: https://github.com/taleff/secan
+  image: https://raw.githubusercontent.com/taleff/secan/refs/heads/main/resources/secan_icon.png
+  description: Secan is a desktop program for analyzing SEC data. It is essentially a GUI wrapper for matplotlib graphing of SEC traces. It also provides a variety of analyses for SEC, including peak deconvolution and dispersity calculations.
 
