@@ -1,0 +1,16 @@
+---
+layout: default
+title: Michael Taleff
+name: "Erdős Number"
+description: "Breakdown of my Erdős number"
+---
+{% assign prior_name = "<strong>Michael Taleff</strong>" %}
+<div class="erdos-link-box">
+  <p>Erdős Number: {{ site.data.erdos | size }}</p>
+  {% for link in site.data.erdos %}
+  <div class="erdos-link-item">
+    <p>{{ prior_name }} - {{ link.connection }} <em><a href={{ link.url }}>(link)</a></em></p>
+    {% assign prior_name = link.connection %}
+  </div>
+  {% endfor %}
+</div>
