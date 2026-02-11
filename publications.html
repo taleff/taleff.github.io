@@ -5,26 +5,22 @@ name: "Publications"
 description: "List of my publications"
 ---
 {% assign my_name = "Taleff, Michael T." %}
-<div class="full-publications-list">
+<section class="full-publications-list">
   {% for pub in site.data.publications reversed %}
-  <div class="publication-item">
-    <div class="toc-image-box">
-      <img src={{ pub.toc | default: "/assets/images/placeholder.png" }} class="toc-image">
-    </div>
+  <article class="publication-item">
+    <img src={{ pub.toc | default: "/assets/images/placeholder.png" }} alt="Table of contents graphic for {{ pub.title }}" class="toc-image">
     <div class="publication-info">
-      <div class="publication-title">
-	<p>
-	  <a href={{ pub.url }}>{{ pub.title }}</a>
-	</p>
-      </div>
-      <div class="publication-author">
+      <h2 class="publication-title">
+	<a href={{ pub.url }}>{{ pub.title }}</a>
+      </h2>
+      <p class="publication-author">
 	{% assign: names = pub.author | split: my_name %}
-	<p>{{ names[0] }}<strong>{{ my_name }}</strong>{{ names[-1] }}</p>
-      </div>
-      <div class="publication-citation">
-	<p><em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>, <em>{{ pub.volume }}</em>, {{ pub.pages }}</p>
-      </div>
+	{{ names[0] }}<strong>{{ my_name }}</strong>{{ names[-1] }}
+      </p>
+      <p class="publication-citation">
+	<em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>, <em>{{ pub.volume }}</em>, {{ pub.pages }}
+      </p>
     </div>
-  </div>
+  </article>
   {% endfor %}
-</div>
+</section>

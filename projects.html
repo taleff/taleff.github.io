@@ -5,22 +5,16 @@ name: "Projects"
 description: "List of projects"
 ---
 {% assign my_name = "Taleff, Michael T." %}
-<div class="full-projects-list">
+<section class="full-projects-list">
   {% for proj in site.data.projects %}
-  <div class="project-item">
-    <div class="project-image-box">
-      <img src={{ proj.image | default: "/assets/images/placeholder.png" }} class="project-image">
-    </div>
+  <article class="project-item">
+    <img src={{ proj.image | default: "/assets/images/placeholder.png" }} alt="{{ proj.title }}" class="project-image">
     <div class="project-info">
-      <div class="project-title">
-	<p>
-	  <a href={{ proj.url }}>{{ proj.title }}</a>
-	</p>
-      </div>
-      <div class="project-description">
-	<p>{{ proj.description }}</p>
-      </div>
+      <h2 class="project-title">
+	<a href={{ proj.url }}>{{ proj.title }}</a>
+      </h2>
+      <p class="project-description"><em>{{ proj.description }}</em></p>
     </div>
-  </div>
+  </article>
   {% endfor %}
-</div>
+</section>

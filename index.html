@@ -5,53 +5,43 @@ name: "Home"
 description: "Home page for my personal website"
 ---
 <div class="home">
-  <div class="profile">
-    <div class="profile-pic-box">
-      <img src={{ "/assets/images/headshot_square.png" | default: "/assets/images/placeholder.png" }} class="profile-picture">
-    </div>
+  <aside class="profile">
+    <img src={{ "/assets/images/headshot_square.png" | default: "/assets/images/placeholder.png" }} alt="Michael Taleff headshot" class="profile-picture">
     <h1>Michael Taleff</h1>
     <div class="quick-links">
       <p><em><a href="/assets/docs/cv.pdf">CV</a> / <a href="https://www.linkedin.com/in/michael-taleff">LinkedIn</a> / <a href="https://github.com/taleff">Github</a> / <a href="https://scholar.google.com/citations?user=PQsHAo4AAAAJ&hl=en&oi=ao">Google Scholar</a></em></p>
     </div>
-    <div class="short-bio">
-      <p>I'm a Chemical Engineering PhD candidate in the <a href="https://guironnet.chbe.illinois.edu">Guironnet group</a> at the University of Illinois Urbana-Champaign
-    </div>
-  </div>
+    <p class="short-bio">I'm a Chemical Engineering PhD candidate in the <a href="https://guironnet.chbe.illinois.edu">Guironnet group</a> at the University of Illinois Urbana-Champaign</p>
+  </aside>
   <div class="showcase">
-    <div class="publications-preview">
-      <div class="showcase-section-title">
-	<h2>Publications</h2>
-      </div>
-      <div class="publications-short-list">
+    <section class="publications-preview">
+      <h2 class="showcase-section-title">Publications</h2>
+      <ul class="publications-short-list">
 	{% for publication in site.data.publications reversed limit:3 %}
-	<p>
+	<li>
 	  <a class="publication-link" href={{ publication.url }}>{{ publication.title }}</a>
-	</p>
+	</li>
 	{% endfor %}
-      </div>
+      </ul>
       <p class="view-all-button">
 	<em><a href="/publications.html">view all</a></em>
       </p>
-    </div>
-    <div class="projects-preview">
-      <div class="showcase-section-title">
-	<h2>Projects</h2>
-      </div>
+    </section>
+    <section class="projects-preview">
+      <h2 class="showcase-section-title">Projects</h2>
       <div class="projects-short-list">
 	{% for project in site.data.projects limit:3 %}
-	<div class="project-preview">
-	  <div class="project-preview-image-box">
-	    <img src={{ project.image | default: "/assets/images/placeholder.png" }} class="project-preview-image">
-	  </div>
+	<article class="project-preview">
+	  <img src={{ project.image | default: "/assets/images/placeholder.png" }} alt="{{ project.title }}" class="project-preview-image">
 	  <p>
 	    <a class="project-link" href={{ project.url }}>{{ project.title }}</a>
 	  </p>
-	</div>
+	</article>
 	{% endfor %}
       </div>
       <p class="view-all-button">
 	<em><a href="/projects.html">view all</a></em>
       </p>
-    </div>
+    </section>
   </div>
 </div>
