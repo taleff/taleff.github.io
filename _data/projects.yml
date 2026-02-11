@@ -2,4 +2,8 @@
   url: https://github.com/taleff/secan
   image: https://raw.githubusercontent.com/taleff/secan/refs/heads/main/resources/secan_icon.png
   description: Desktop program for analyzing SEC traces.
+- title: Ledger CLI Dashboard
+  url: https://github.com/taleff/ledger-report-shortcut
+  image: https://github.com/taleff/ledger-report-shortcut/blob/main/assets/example_dashboard.png?raw=true
+  description: Quick overview of financial information stored using Ledger CLI
 
