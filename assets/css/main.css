@@ -20,7 +20,7 @@ body {
 
 .nav-link li a {
     font-weight: bold;
-    font-size: 13pt;
+    font-size: 18pt;
 }
 
 .nav-link li a:link {
@@ -79,8 +79,14 @@ a:hover {
     border: 3px solid #BB865A;
 }
 
+.quick-links {
+    text-align: center;
+    font-size: 13pt;
+}
+
 .short-bio p {
     text-align: center;
+    font-size: 13pt;
 }
 
 .showcase {
@@ -98,12 +104,12 @@ a:hover {
     margin-right: 10px;
 }
 
-.showcase-section-title p {
-    font-size: 10pt;
-}
-
 .publications-short-list {
     padding-left: 30px;
+}
+
+.publication-link {
+    font-size: 13pt;
 }
 
 .projects-short-list {
@@ -123,6 +129,10 @@ a:hover {
     max-width: 150px;
     border-radius: 50%;
     border: 3px solid #BB865A;
+}
+
+.project-link {
+    font-size: 13pt;
 }
 
 .view-all-button {
@@ -173,7 +183,7 @@ a:hover {
 }
 
 .project-image {
-    width: 300px;
+    width: 200px;
 }
 
 .project-title p{
@@ -187,4 +197,67 @@ a:hover {
     align-items: center;
     gap: 5px;
     margin-top: 15px;
+}
+
+/* Mobile styles (phones) */
+@media (max-width: 767px) {
+    body {
+        padding: 0 15px;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .nav-link li a {
+        font-size: 14pt;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    .projects-short-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .publication-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .toc-image {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .project-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .project-image {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .full-publications-list,
+    .full-projects-list {
+        padding: 0 10px;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .toc-image {
+        width: 250px;
+    }
+
+    .project-image {
+        width: 150px;
+    }
 }

@@ -25,7 +25,7 @@ description: "Home page for my personal website"
       <div class="publications-short-list">
 	{% for publication in site.data.publications reversed limit:3 %}
 	<p>
-	  <a href={{ publication.url }}>{{ publication.title }}</a>
+	  <a class="publication-link" href={{ publication.url }}>{{ publication.title }}</a>
 	</p>
 	{% endfor %}
       </div>
@@ -44,7 +44,7 @@ description: "Home page for my personal website"
 	    <img src={{ project.image | default: "/assets/images/placeholder.png" }} class="project-preview-image">
 	  </div>
 	  <p>
-	    <a href={{ project.url }}>{{ project.title }}</a>
+	    <a class="project-link" href={{ project.url }}>{{ project.title }}</a>
 	  </p>
 	</div>
 	{% endfor %}
